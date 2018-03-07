@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#293ca6</color>
+    <color name="colorPrimaryDark">#212b6c</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="putih">#ffffff</color>
+    <color name="putihdark">#e4e4e4</color>
+    <color name="hitam">#000000</color>
+    <color name="hijau">#10a713</color>
+    <color name="abu">#353333</color>
+
+    <color name="overlayBackground">#7f333639</color>
+
+    <color name="first_slide_background">#3a3b40</color>
+    <color name="first_slide_buttons">#433d40</color>
+
+    <color name="second_slide_background">#191846</color>
+    <color name="second_slide_buttons">#111128</color>
+
+    <color name="third_slide_background">#437671</color>
+    <color name="third_slide_buttons">#284e48</color>
+
+    <color name="fourth_slide_background">#644135</color>
+    <color name="fourth_slide_buttons">#3d2622</color>
+
+    <color name="custom_slide_background">#3F51B5</color>
+    <color name="custom_slide_buttons">#1A237E</color>
+
+    <!--Splash Screen-->
+    <item name="splash_background" type="color">@color/colorPrimary</item>
+
+</resources>

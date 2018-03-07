@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login3"
+    android:orientation="vertical"
+    tools:context="id.project.materialintroscreen.MaterialIntroActivity">
+
+
+        <EditText
+            android:id="@+id/sign_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:ems="17"
+            android:hint="Name"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:textSize="17dp"
+             />
+
+        <EditText
+            android:id="@+id/sign_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:ems="17"
+            android:layout_gravity="center"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textSize="17dp"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <EditText
+            android:id="@+id/sign_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sign_num"
+            android:layout_alignStart="@+id/sign_num"
+            android:layout_below="@+id/sign_email"
+            android:ems="17"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textSize="17dp"
+            android:layout_marginTop="14dp"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:id="@+id/sign_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button3"
+            android:ems="17"
+            android:hint="Phone"
+            android:inputType="numberDecimal"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:textSize="17dp"
+             />
+
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:layout_marginLeft="12dp"-->
+        <!--android:text="Upload Photo"-->
+        <!--android:textSize="17dp"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/upload_img"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_marginTop="3dp"-->
+        <!--android:layout_marginLeft="12dp"-->
+        <!--android:background="@drawable/background_upload"-->
+        <!--android:text="Browse"-->
+        <!--android:textColor="@color/putih"-->
+        <!--/>-->
+
+    <Button
+        android:id="@+id/btn_signfix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentBottom="true"
+
+        android:background="@drawable/background_btn1"
+        android:ems="20"
+        android:layout_marginTop="40dp"
+        android:text="SIGN UP"
+        android:textColor="@color/colorAccent" />
+
+
+
+
+
+
+
+
+</LinearLayout>

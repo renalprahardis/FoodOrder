@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "661801987739",
+    "firebase_url": "https://little-coffee-99f32.firebaseio.com",
+    "project_id": "little-coffee-99f32",
+    "storage_bucket": "little-coffee-99f32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661801987739:android:16387a4f772dace3",
+        "android_client_info": {
+          "package_name": "agency.tango.materialintro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661801987739-p0tjvujdfhbsvmgiiilul0bq1juqapbs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "agency.tango.materialintro",
+            "certificate_hash": "f0c8320ce273f4ab8c404221bb96cd61fbf8a379"
+          }
+        },
+        {
+          "client_id": "661801987739-dj7ef4096t5v3b01giuhk3gnijmhfhto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8PxiIJYO_FnnUGze-cxpRT5PmK0HqmNQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661801987739-dj7ef4096t5v3b01giuhk3gnijmhfhto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
